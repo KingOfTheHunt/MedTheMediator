@@ -7,7 +7,10 @@ public class Mediator(IServiceProvider serviceProvider) : IMediator
 {
     public Task<TResponse> SendAsync<TRequest, TResponse>(TRequest request, CancellationToken cancellationToken = new CancellationToken())
     {
-        var requestType = request?.GetType();
+        if (request is null)
+            throw new ArgumentNullException(nameof(request));
+        
+        var requestType = request.GetType();
         var handlerType = typeof(IHandler<,>).MakeGenericType(requestType, typeof(TResponse));
         var handler = serviceProvider.GetService(handlerType);
 
