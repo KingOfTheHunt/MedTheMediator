@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedTheMediator", "MedTheMediator\MedTheMediator.csproj", "{0BCDB130-586D-4B3F-952E-5B6709BFCEBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedTheMediator.Tests", "MedTheMediator.Tests\MedTheMediator.Tests.csproj", "{D32A434D-1C23-47E9-B1C7-4FA06FE7085F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{0BCDB130-586D-4B3F-952E-5B6709BFCEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BCDB130-586D-4B3F-952E-5B6709BFCEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BCDB130-586D-4B3F-952E-5B6709BFCEBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32A434D-1C23-47E9-B1C7-4FA06FE7085F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32A434D-1C23-47E9-B1C7-4FA06FE7085F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32A434D-1C23-47E9-B1C7-4FA06FE7085F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32A434D-1C23-47E9-B1C7-4FA06FE7085F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
