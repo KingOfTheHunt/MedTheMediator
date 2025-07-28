@@ -27,4 +27,4 @@ jobs:
         run: dotnet pack ./MedTheMediator/MedTheMediator.csproj -c Release
       
       - name: Publishing
-        run: dotnet nuget push "bin/Release/*.nupkg" -k ${{ secrets.NUGET_SECRET }} -s https://api.nuget.org/v3/index.json
+        run: dotnet nuget push "./MedTheMediator/MedTheMediator/bin/Release/*.nupkg" -k ${{ secrets.NUGET_SECRET }} -s https://api.nuget.org/v3/index.json
