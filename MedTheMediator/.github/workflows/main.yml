@@ -21,7 +21,7 @@ jobs:
         run: dotnet build -c Release
       
       - name: Run tests
-        run: dotnet test --no-build --verbosity normal
+        run: dotnet test
         
       - name: Packing
         run: dotnet pack ./MedTheMediator/MedTheMediator.csproj -c Release
