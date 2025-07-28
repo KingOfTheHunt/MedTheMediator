@@ -5,7 +5,7 @@ A minimal and extensible Mediator Pattern implementation for .NET application.
 
 | Package | Version | Downloads |
 | ------ | ------ | --------- |   
-| `MedTheMediator` | [![NuGet](https://img.shields.io/nuget/v/MedTheMediator.svg)](https://nuget.org/packages/MedTheMediator.Abstractions) | [![downloads](https://img.shields.io/nuget/dt/MedTheMediator.svg)](https://nuget.org/packages/MedTheMediator.Abstractions)
+| `MedTheMediator` | [![NuGet](https://img.shields.io/nuget/v/MedTheMediator.svg)](https://nuget.org/packages/MedTheMediator) | [![downloads](https://img.shields.io/nuget/dt/MedTheMediator.svg)](https://nuget.org/packages/MedTheMediator)
 
 
 ## Installation
