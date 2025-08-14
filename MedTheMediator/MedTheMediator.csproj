@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         
         <PackageId>MedTheMediator</PackageId>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <License>MIT</License>
         <Authors>Davi Francisco</Authors>
         <PackageDescription>A minimal and extensible Mediator Pattern implementation for .NET application.</PackageDescription>
@@ -19,12 +19,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="MedTheMediator.Abstractions" Version="1.0.0" />
+      <PackageReference Include="MedTheMediator.Abstractions" Version="1.0.1" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include=".github\workflows\main.yml" />
+      <None Remove=".github\workflows\main.yml" />
     </ItemGroup>
 
 </Project>
