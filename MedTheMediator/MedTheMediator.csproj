@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         
         <PackageId>MedTheMediator</PackageId>
-        <Version>1.0.1</Version>
+        <Version>1.1.0</Version>
         <License>MIT</License>
         <Authors>Davi Francisco</Authors>
         <PackageDescription>A minimal and extensible Mediator Pattern implementation for .NET application.</PackageDescription>
